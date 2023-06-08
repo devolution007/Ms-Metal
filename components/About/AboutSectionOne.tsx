@@ -62,12 +62,42 @@ const AboutSectionOne = () => {
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
-                <Image
+                {/* <Image
                   src="/images/about/about-image.svg"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full lg:mr-0"
-                />
+                /> */}
+                <h2 className="about-heading">
+                Moto Of The Company
+                </h2><br></br>
+                <p className="about-para">
+                Building Strength, Forging Excellence
+                </p><br></br> <br></br>
+
+                <h2 className="about-heading">
+                Vision Of The Company
+                </h2><br></br>
+                <p className="about-para">
+                Our vision is to be the premier construction partner, specializing in structural and
+                miscellaneous metals. We aim to set the standard for excellence in our industry by delivering innovative, reliable, and cost-effective solutions that meet our clients evolving needs. With a focus on safety, quality, and sustainability, we strive to build lasting relationships with our clients, suppliers, and employees, and to play an instrumental role in shaping the future of construction.
+                </p>
+                
+
+{/* <SectionTitle
+                title="Moto Of The Company"
+                paragraph="
+                Building Strength, Forging Excellence
+                "
+                mb="20px"
+              />
+              <SectionTitle
+                title="Vision Of The Company"
+                paragraph="
+                Our vision is to be the premier construction partner, specializing in structural and
+                miscellaneous metals. We aim to set the standard for excellence in our industry by delivering innovative, reliable, and cost-effective solutions that meet our clients evolving needs. With a focus on safety, quality, and sustainability, we strive to build lasting relationships with our clients, suppliers, and employees, and to play an instrumental role in shaping the future of construction."
+                mb="20px"
+              /> */}
               </div>
             </div>
           </div>
