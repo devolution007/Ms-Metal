@@ -40,7 +40,23 @@
 .lg\:pb-28 {
   padding-bottom: 1rem!important;
 }
+circle{
+  display: none;
+}
 
+.service-heading{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.about-heading{
+  font-size: 25px;
+  font-weight: 600;
+}
+.about-para{
+  font-size: 1.125rem;
+  color:#9298AD;
+}
 
 
 
