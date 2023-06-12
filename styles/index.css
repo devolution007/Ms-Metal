@@ -57,8 +57,18 @@ circle{
   font-size: 1.125rem;
   color:#9298AD;
 }
-
-
+.services-list{
+  list-style-type: initial!important;
+}
+textarea{
+  background-color: #00000073!important;
+}
+input{
+  background-color: #00000073!important;
+}
+.container-hero{
+  background-color: #0000008c!important;
+}
 
 }
 
