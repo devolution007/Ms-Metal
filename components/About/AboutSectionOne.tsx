@@ -20,61 +20,34 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
-      <SectionTitle
-          title="About"
-          paragraph=""
-          center
-          mb="80px"
-        />
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+             <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title=""
-                paragraph="
-                MS Metals is your premier miscellaneous and structural metal company. With a team of seasoned professionals boasting extensive experience in construction,
-                engineering, and project management, we are your go-to experts for all things metal fabrication. From intricate architectural details to robust structural components, we specialize in delivering top-notch solutions tailored to your unique needs. Our commitment to excellence and attention to detail ensure that every project is executed with utmost precision and craftsmanship. Trust MS Metals to bring your metal visions to reality, as we combine our expertise with innovative techniques to deliver superior quality products on time, every time."
-                mb="44px"
-              />
-
-              {/* <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
-              </div> */}
-            </div>
+            
 
             <div className="w-full px-4 lg:w-1/2">
               <div
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                {/* <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full lg:mr-0"
-                /> */}
+                data-wow-delay=".2s">
                 <h2 className="about-heading">
-                Moto Of The Company
+                About
                 </h2><br></br>
                 <p className="about-para">
-                Building Strength, Forging Excellence
-                </p><br></br> <br></br>
+                MS Metals is your premier miscellaneous and structural metal company. With a team of seasoned professionals boasting extensive experience in construction,
+                engineering, and project management, we are your go-to experts for all things metal fabrication. From intricate architectural details to robust structural components, we specialize in delivering top-notch solutions tailored to your unique needs. Our commitment to excellence and attention to detail ensure that every project is executed with utmost precision and craftsmanship. Trust MS Metals to bring your metal visions to reality, as we combine our expertise with innovative techniques to deliver superior quality products on time, every time.
+                </p>
+                
 
+
+              </div>
+            </div>
+
+
+
+
+            <div className="w-full px-4 lg:w-1/2">
+              <div
+                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                data-wow-delay=".2s">
                 <h2 className="about-heading">
                 Vision Of The Company
                 </h2><br></br>
@@ -84,20 +57,7 @@ const AboutSectionOne = () => {
                 </p>
                 
 
-{/* <SectionTitle
-                title="Moto Of The Company"
-                paragraph="
-                Building Strength, Forging Excellence
-                "
-                mb="20px"
-              />
-              <SectionTitle
-                title="Vision Of The Company"
-                paragraph="
-                Our vision is to be the premier construction partner, specializing in structural and
-                miscellaneous metals. We aim to set the standard for excellence in our industry by delivering innovative, reliable, and cost-effective solutions that meet our clients evolving needs. With a focus on safety, quality, and sustainability, we strive to build lasting relationships with our clients, suppliers, and employees, and to play an instrumental role in shaping the future of construction."
-                mb="20px"
-              /> */}
+
               </div>
             </div>
           </div>
