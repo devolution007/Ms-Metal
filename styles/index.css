@@ -88,6 +88,9 @@ input{
 .contact-heading{
   text-align: center;
 }
+.px-4{
+  padding-left: 3rem!important;
+}
 
 
 }
