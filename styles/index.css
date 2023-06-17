@@ -47,6 +47,7 @@ circle{
 .service-heading{
   font-size: 1.25rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .about-heading{
@@ -59,6 +60,7 @@ circle{
 }
 .services-list{
   list-style-type: initial!important;
+  text-align: center;
 }
 textarea{
   background-color: #00000073!important;
@@ -72,6 +74,14 @@ input{
   padding-bottom: 40px;
   margin-left: 20%;
   margin-right: 20%;
+}
+.fill-current{
+  margin-left: 150px;
+}
+@media only screen and (max-width: 600px) {
+  .fill-current{
+    margin-left: 250px;
+  }
 }
 
 
