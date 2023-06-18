@@ -34,6 +34,7 @@
   .w-60 {
     width: 10rem!important;
 }
+}
 .fill-current {
   fill: white!important;
 }
@@ -61,8 +62,7 @@ circle{
   text-align: center;
 }
 .services-list{
-  list-style-type: initial!important;
-  text-align: center;
+    text-align: center;
 }
 textarea{
   background-color: #00000073!important;
@@ -80,10 +80,28 @@ input{
 .fill-current{
   margin-left: 150px;
 }
-@media only screen and (max-width: 600px) {
+
+/* Responsive For Mobile */
+
+@media only screen and (max-width: 375px) {
   .fill-current{
-    margin-left: 250px;
+    margin-left: 150px;
   }
+ .hero-title{
+  font-size: 25px!important;
+ }
+ .px-4{
+  padding-left: 0rem!important;
+  padding-right: 2rem!important;
+}
+.logo-white{
+  margin-left: 0px!important;
+}
+
+.py-8 {
+  
+  margin-left: -30px;
+
 }
 .contact-heading{
   text-align: center;
@@ -91,7 +109,7 @@ input{
 .px-4{
   padding-left: 3rem!important;
 }
-
-
 }
-
+.logo-white{
+  margin-left: -40px;
+}
