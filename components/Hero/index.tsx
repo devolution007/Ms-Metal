@@ -25,7 +25,7 @@ const Hero = () => {
               >
                 <br></br>
                 <br></br>
-                <h1 className="mb-5 text-4xl font-bold leading-tight text-black dark:text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="mb-5 text-4xl font-bold leading-tight text-black dark:text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight hero-title">
                 MS | METALS
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-black dark:opacity-90 sm:text-lg md:text-xl" >
