@@ -77,16 +77,16 @@ input{
   margin-left: 20%;
   margin-right: 20%;
 }
-.fill-current{
+/* .fill-current{
   margin-left: 150px;
-}
+} */
 
 /* Responsive For Mobile */
 
 @media only screen and (max-width: 375px) {
-  .fill-current{
+  /* .fill-current{
     margin-left: 150px;
-  }
+  } */
  .hero-title{
   font-size: 25px!important;
  }
@@ -98,11 +98,13 @@ input{
   margin-left: 0px!important;
 }
 
-.py-8 {
-  
-  margin-left: -30px;
 
-}
+
+/* .py-8 {
+  
+  margin-left: -20px;
+
+} */
 .contact-heading{
   text-align: center;
 }
@@ -110,6 +112,10 @@ input{
   padding-left: 3rem!important;
 }
 }
-.logo-white{
+/* .logo-white{
   margin-left: -40px;
+} */
+
+.services-icon{
+  text-align: -webkit-center;
 }
