@@ -49,7 +49,7 @@ const AboutSectionOne = () => {
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s">
                 <h2 className="about-heading">
-                Vision Of The Company
+                Vision
                 </h2><br></br>
                 <p className="about-para">
                 Our vision is to be the premier construction partner, specializing in structural and
