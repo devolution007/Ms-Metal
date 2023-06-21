@@ -11,6 +11,7 @@ const Features = () => {
       >
         <div className="container" id="services">
           <SectionTitle
+            id="services"
             title="Services"
             paragraph=""
             center
