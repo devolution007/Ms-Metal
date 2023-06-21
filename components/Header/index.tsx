@@ -108,7 +108,7 @@ const Header = () => {
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
                           <Link
-                            href={menuItem.id}
+                            href={menuItem.path}
                             className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
