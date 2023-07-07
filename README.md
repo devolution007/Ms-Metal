@@ -5,6 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-
 
 Clone Git Repository from [here](https://github.com/devolution007/MS-Metals)
 
+Update .env file by your own credentials
 
 
 then, install the npm pakages using command:
