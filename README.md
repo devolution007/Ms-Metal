@@ -5,10 +5,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-
 
 Clone Git Repository from [here](https://github.com/devolution007/MS-Metals)
 
+
+
 then, install the npm pakages using command:
 
 ```bash
 npm install
+```
+
+then, install the Chakra UI using command: 
+
+```bash
+npm i @chakra-ui/react --force
 ```
 
 run the development server using command:
