@@ -111,6 +111,9 @@ input{
 .px-4{
   padding-left: 3rem!important;
 }
+.form-section{
+  width:100% !important;
+}
 }
 /* .logo-white{
   margin-left: -40px;
@@ -118,4 +121,10 @@ input{
 
 .services-icon{
   text-align: -webkit-center;
+}
+.form-section{
+  width:80%;
+}
+.justifynew{
+  justify-content: center;
 }
